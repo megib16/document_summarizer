@@ -13,7 +13,7 @@ load_dotenv()
 # thinking disabled: this is a straightforward summarization task, not one
 # that needs Claude's extended reasoning — and it keeps the response a
 # plain string instead of a list of content blocks.
-llm = ChatAnthropic(model="claude-opus-5", max_tokens=1024, thinking={"type": "disabled"})
+llm = ChatAnthropic(model="claude-sonnet-5", max_tokens=1024, thinking={"type": "disabled"})
 
 map_prompt = ChatPromptTemplate.from_template(
     "Summarize the following excerpt from a lecture in 2-3 sentences. "

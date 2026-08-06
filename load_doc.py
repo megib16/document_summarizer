@@ -1,8 +1,8 @@
 """Step 1: load a PDF and see what LangChain gives us back."""
 
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader 
 
-PDF_PATH = "/Users/megibida/Downloads/15-Ein und Ausgabe.pdf"
+PDF_PATH = "/Users/megibida/Downloads/15-Ein und Ausgabe.pdf" 
 
 
 def load_pdf(path: str):
