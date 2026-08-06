@@ -1,0 +1,8 @@
+anthropic==0.120.2
+langchain==0.3.30
+langchain-anthropic==0.3.22
+langchain-community==0.3.31
+langchain-core==0.3.86
+langchain-text-splitters==0.3.11
+pypdf==6.15.0
+python-dotenv==1.2.1

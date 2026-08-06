@@ -11,7 +11,7 @@ from split_doc import split_docs
 
 load_dotenv()
 
-llm = ChatAnthropic(model="claude-opus-5", max_tokens=4096, thinking={"type": "disabled"})
+llm = ChatAnthropic(model="claude-sonnet-5", max_tokens=4096, thinking={"type": "disabled"})
 
 reduce_prompt = ChatPromptTemplate.from_template(
     "The following are summaries of consecutive sections of a lecture, in order. "
