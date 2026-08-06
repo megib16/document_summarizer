@@ -37,4 +37,6 @@ if __name__ == "__main__":
     final_summary = combine_summaries(chunk_summaries)
 
     print("--- Final summary ---")
-    print(final_summary)
+    print(final_summary) 
+    with open("summary.txt", "w") as f: 
+        f.write(final_summary)
